@@ -17,34 +17,55 @@
 
 <div id="myBtnContainer">
   <button class="btn active" onclick="filterSelection('all')"> Tất cả</button>
-  <button class="btn" onclick="filterSelection('nature')"> Lờ Vê</button>
-  <button class="btn" onclick="filterSelection('cars')"> Hơi Mệt</button>
-  <button class="btn" onclick="filterSelection('people')"> Khác</button>
+  <button class="btn" onclick="filterSelection('lv')"> Lờ Vê</button>
+  <button class="btn" onclick="filterSelection('hermes')"> Hơi Mệt</button>
+  <button class="btn" onclick="filterSelection('other')"> Khác</button>
 </div>
 
 <!-- Portfolio Gallery Grid -->
 <div class="row">
-  <div class="column nature">
+  <div class="column lv">
     <div class="content">
-      <img src="/images/mountains.jpg" alt="Mountains" style="width:100%">
-      <h4>Mountains</h4>
-      <p>Lorem ipsum dolor..</p>
+      <img src="pics/m61692.jpg" alt="m61692" style="width:100%">
+      <h4>Test</h4>
+      <p>Price: $999
+	  <br>
+	  Other price: $111
+	  <br>
+	  Size a x b x c
+	  <br>
+	  <a href="https://www.google.com/">Link web</a>
+	  </p>
     </div>
   </div>
   
-  <div class="column cars">
+  <div class="column hermes">
     <div class="content">
-      <img src="/images/cars1.jpg" alt="Car" style="width:100%">
-      <h4>Retro</h4>
-      <p>Lorem ipsum dolor..</p>
+      <img src="/pics/" alt="code" style="width:100%">
+      <h4>name</h4>
+      <p>Price: $999
+	  <br>
+	  Other price: $111
+	  <br>
+	  Size a x b x c
+	  <br>
+	  <a href="https://www.google.com/">Link web</a> 
+	  </p>
     </div>
   </div>
 
-  <div class="column people">
+  <div class="column other">
     <div class="content">
-      <img src="/images/people1.jpg" alt="Car" style="width:100%">
-      <h4>Girl</h4>
-      <p>Lorem ipsum dolor..</p>
+      <img src="/pics/" alt="code" style="width:100%">
+      <h4>name</h4>
+      <p>Price: $999
+	  <br>
+	  Other price: $111
+	  <br>
+	  Size a x b x c
+	  <br>
+	  <a href="https://www.google.com/">Link web</a>
+	  </p>
     </div>
   </div>
 <!-- END GRID -->
@@ -55,6 +76,16 @@
 
 <script>
 filterSelection("all")
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
 </script>
 
 </body>

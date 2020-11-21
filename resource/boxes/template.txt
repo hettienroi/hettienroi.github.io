@@ -1,0 +1,14 @@
+<div class="column category">
+    <div class="content">
+      <img src="/pics/" alt="code" style="width:100%">
+      <h4>name</h4>
+      <p>Price: $
+	  <br>
+	  Other price: $
+	  <br>
+	  Size a x b x c
+	  <br>
+	  <a href="https://www.google.com/">Link web</a>
+	  </p>
+    </div>
+  </div>
