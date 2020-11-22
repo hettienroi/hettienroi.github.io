@@ -1,14 +1,14 @@
-<div class="column category">
-    <div class="content">
-      <img src="/pics/" alt="code" style="width:100%">
-      <h4>name</h4>
-      <p>Price: $
-	  <br>
-	  Other price: $
-	  <br>
-	  Size a x b x c
-	  <br>
-	  <a href="https://www.google.com/">Link web</a>
-	  </p>
-    </div>
-  </div>
+<div class="column lv">
+	<div class="content">
+		<img src="pics/m61692.jpg" alt="m61692" style="width:100%">
+		<b>Code:</b>
+		<br>
+		Giá: $999
+		<br>
+		Bạn: $111
+		<br>
+		Size: a x b x c (cm)
+		<br>
+		<center><a href="https://www.google.com/">Link web</a></center>
+	</div>
+</div>
