@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Hết Tiền Rồi</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="resource/js/functions.js"></script>
 <link rel="stylesheet" href="resource/css/style.css">
@@ -15,87 +16,16 @@
 	</a></center>
 
 	<hr>
-	<h2>Clutch/Pouch</h2>
-
-	<div id="myBtnContainer">
-		<button class="btn active" onclick="filterSelection('all')"> Tất cả</button>
-		<button class="btn" onclick="filterSelection('lv')"> Lờ Vê</button>
-		<button class="btn" onclick="filterSelection('hermes')"> Hơi Mệt</button>
-		<button class="btn" onclick="filterSelection('other')"> Khác</button>
-	</div>
-
-	<!-- Portfolio Gallery Grid -->
-	<!-- Default image size: 1000x720 px -->
-	<div class="row">
-		<div class="column lv">
-			<div class="content">
-				<a href="https://www.google.com/" target="_blank">
-					<img src="pics/m61692.jpg" alt="m61692" style="width:100%">
-				</a>
-				<b>Code:</b>
-				<br>
-				Giá: $999
-				<br>
-				Bạn: $111
-				<br>
-				Size: a x b x c (cm)
-				<br>
-				<center><a href="https://www.google.com/" target="_blank">Link web</a></center>
-			</div>
-		</div>
-	  
-		<div class="column hermes">
-			<div class="content">
-				<a href="https://www.google.com/" target="_blank">
-					<img src="pics/m61692.jpg" alt="m61692" style="width:100%">
-				</a>
-				<b>Code:</b>
-				<br>
-				Giá: $999
-				<br>
-				Bạn: $111
-				<br>
-				Size: a x b x c (cm)
-				<br>
-				<center><a href="https://www.google.com/" target="_blank">Link web</a></center>
-			</div>
-		</div>
-
-		<div class="column other">
-			<div class="content">
-				<a href="https://www.google.com/" target="_blank">
-					<img src="pics/m61692.jpg" alt="m61692" style="width:100%">
-				</a>
-				<b>Code:</b>
-				<br>
-				Giá: $999
-				<br>
-				Bạn: $111
-				<br>
-				Size: a x b x c (cm)
-				<br>
-				<center><a href="https://www.google.com/" target="_blank">Link web</a></center>
-			</div>
-		</div>
-	<!-- END GRID -->
-	</div>
-
+	<h1>HếtTiềnRồi.com</h1>
+	<hr>
+	<br>
+	<center><div>
+		<button class="buttonindex" onclick="window.location.href='pouch.html';">Pouch / Clutch</button>
+		<br><br>
+		<button class="buttonindex" onclick="window.location.href='bag.html';">Bag</button>
+	</div></center>
+	<p style="position: absolute; bottom: 1vh; font-size: 3vw">by HetTienRoi (c) 2020</p>
 <!-- END MAIN -->
 </div>
-
-<script>
-filterSelection("all")
-// Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
-</script>
-
 </body>
 </html>

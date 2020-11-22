@@ -1,56 +1,56 @@
 LV: (Change after column on first line)
 
-<div class="column lv">
-	<div class="content">
-		<a href="https://www.google.com/" target="_blank">
-			<img src="pics/m61692.jpg" alt="m61692" style="width:100%">
-		</a>
-		<b>Code:</b>
-		<br>
-		Giá: $999
-		<br>
-		Bạn: $111
-		<br>
-		Size: a x b x c (cm)
-		<br>
-		<center><a href="https://www.google.com/" target="_blank">Link web</a></center>
-	</div>
-</div>
+		<div class="column lv">
+			<div class="content">
+				<a href="" target="_blank">
+					<img src="pics/.jpg" alt="" style="width:100%">
+				</a>
+				<b>Code: </b>
+				<br>
+				Giá: €
+				<br>
+				Bạn: $
+				<br>
+				Size:  x  x  (cm)
+				<br>
+				<center><a href="" target="_blank">Link bạn</a></center>
+			</div>
+		</div>
 
 Hermes: (Change after column on first line)
 
-<div class="column hermes">
-	<div class="content">
-		<a href="https://www.google.com/" target="_blank">
-			<img src="pics/m61692.jpg" alt="m61692" style="width:100%">
-		</a>
-		<b>Code:</b>
-		<br>
-		Giá: $999
-		<br>
-		Bạn: $111
-		<br>
-		Size: a x b x c (cm)
-		<br>
-		<center><a href="https://www.google.com/" target="_blank">Link web</a></center>
-	</div>
-</div>
-
+		<div class="column hermes">
+			<div class="content">
+				<a href="" target="_blank">
+					<img src="pics/.jpg" alt="" style="width:100%">
+				</a>
+				<b>Code: </b>
+				<br>
+				Giá: €
+				<br>
+				Bạn: $
+				<br>
+				Size:  x  x  (cm)
+				<br>
+				<center><a href="" target="_blank">Link bạn</a></center>
+			</div>
+		</div>
+		
 Other: (Change after column on first line)
 
-<div class="column other">
-	<div class="content">
-		<a href="https://www.google.com/" target="_blank">
-			<img src="pics/m61692.jpg" alt="m61692" style="width:100%">
-		</a>
-		<b>Code:</b>
-		<br>
-		Giá: $999
-		<br>
-		Bạn: $111
-		<br>
-		Size: a x b x c (cm)
-		<br>
-		<center><a href="https://www.google.com/" target="_blank">Link web</a></center>
-	</div>
-</div>
+		<div class="column other">
+			<div class="content">
+				<a href="" target="_blank">
+					<img src="pics/.jpg" alt="" style="width:100%">
+				</a>
+				<b>Code: </b>
+				<br>
+				Giá: €
+				<br>
+				Bạn: $
+				<br>
+				Size:  x  x  (cm)
+				<br>
+				<center><a href="" target="_blank">Link bạn</a></center>
+			</div>
+		</div>
