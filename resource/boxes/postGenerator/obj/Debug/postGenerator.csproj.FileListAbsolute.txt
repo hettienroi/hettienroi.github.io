@@ -1,0 +1,10 @@
+H:\github\hettienroi.github.io\resource\boxes\postGenerator\bin\Debug\postGenerator.exe.config
+H:\github\hettienroi.github.io\resource\boxes\postGenerator\bin\Debug\postGenerator.exe
+H:\github\hettienroi.github.io\resource\boxes\postGenerator\bin\Debug\postGenerator.pdb
+H:\github\hettienroi.github.io\resource\boxes\postGenerator\obj\Debug\postGenerator.csprojAssemblyReference.cache
+H:\github\hettienroi.github.io\resource\boxes\postGenerator\obj\Debug\postGenerator.Form1.resources
+H:\github\hettienroi.github.io\resource\boxes\postGenerator\obj\Debug\postGenerator.Properties.Resources.resources
+H:\github\hettienroi.github.io\resource\boxes\postGenerator\obj\Debug\postGenerator.csproj.GenerateResource.cache
+H:\github\hettienroi.github.io\resource\boxes\postGenerator\obj\Debug\postGenerator.csproj.CoreCompileInputs.cache
+H:\github\hettienroi.github.io\resource\boxes\postGenerator\obj\Debug\postGenerator.exe
+H:\github\hettienroi.github.io\resource\boxes\postGenerator\obj\Debug\postGenerator.pdb
