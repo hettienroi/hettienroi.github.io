@@ -12,12 +12,7 @@ namespace postGenerator
 {
     public partial class Form1 : Form
     {
-        public Form1()
-        {
-            InitializeComponent();
-        }
-
-        private void btnGen_Click(object sender, EventArgs e)
+        public string generateListing()
         {
             string output = "       <div class=\"column ";
             output += txtCat.Text.ToString() + "\">\n           <div class=\"content\">\n" +
@@ -42,6 +37,17 @@ namespace postGenerator
             output += txtLinkBan.Text.ToString() + "\" target=\"_blank\">Link bạn</a></center>\n" +
                 "           </div>\n" +
                 "       </div>";
+            return output;
+        }
+        public string path = "";
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void btnGen_Click(object sender, EventArgs e)
+        {
+            string output = generateListing();
             System.Windows.Forms.Clipboard.SetText(output);
         }
 

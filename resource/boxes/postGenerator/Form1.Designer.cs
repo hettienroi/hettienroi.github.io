@@ -46,6 +46,9 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnGen = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
+            this.btnImport = new System.Windows.Forms.Button();
+            this.btnExport = new System.Windows.Forms.Button();
+            this.btnList = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -198,11 +201,42 @@
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
+            // btnImport
+            // 
+            this.btnImport.Enabled = false;
+            this.btnImport.Location = new System.Drawing.Point(88, 159);
+            this.btnImport.Name = "btnImport";
+            this.btnImport.Size = new System.Drawing.Size(88, 23);
+            this.btnImport.TabIndex = 17;
+            this.btnImport.Text = "Import HTML";
+            this.btnImport.UseVisualStyleBackColor = true;
+            // 
+            // btnExport
+            // 
+            this.btnExport.Location = new System.Drawing.Point(305, 159);
+            this.btnExport.Name = "btnExport";
+            this.btnExport.Size = new System.Drawing.Size(95, 23);
+            this.btnExport.TabIndex = 18;
+            this.btnExport.Text = "Export to HTML";
+            this.btnExport.UseVisualStyleBackColor = true;
+            // 
+            // btnList
+            // 
+            this.btnList.Location = new System.Drawing.Point(182, 159);
+            this.btnList.Name = "btnList";
+            this.btnList.Size = new System.Drawing.Size(84, 23);
+            this.btnList.TabIndex = 19;
+            this.btnList.Text = "Import CSV";
+            this.btnList.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(412, 190);
+            this.Controls.Add(this.btnList);
+            this.Controls.Add(this.btnExport);
+            this.Controls.Add(this.btnImport);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnGen);
             this.Controls.Add(this.groupBox1);
@@ -243,6 +277,9 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnGen;
         private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Button btnImport;
+        private System.Windows.Forms.Button btnExport;
+        private System.Windows.Forms.Button btnList;
     }
 }
 
