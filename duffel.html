@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hết Tiền Rồi | Duffel Bags</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="resource/js/functions.js"></script>
+<link rel="stylesheet" href="resource/css/style.css">
+<link rel="shortcut icon" type="image/x-icon" href="pics/logo.ico">
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+	<center><a href="https://hettienroi.github.io/">
+		<img alt="hettienroi.github.io" src="pics/logo.png"  height="100vw">
+	</a></center>
+
+	<hr>
+	<h2>Duffel Bags</h2>
+
+	<div id="myBtnContainer">
+		<button class="btn active" onclick="filterSelection('all')"> Tất cả</button>
+		<button class="btn" onclick="filterSelection('lv')"> Lờ Vê</button>
+		<button class="btn" onclick="filterSelection('hermes')"> Hơi Mệt</button>
+		<button class="btn" onclick="filterSelection('other')"> Khác</button>
+	</div>
+
+	<!-- Portfolio Gallery Grid -->
+	<!-- Default image size: 1000x720 px -->
+	<div class="row">
+		<div class="column lv">
+			<div class="content">
+				<a href="" target="_blank">
+					<img src="pics/.jpg" alt="" style="width:100%">
+				</a>
+				<b>Code: </b>
+				<br>
+				Giá: €2150
+				<br>
+				Bạn: $315
+				<br>
+				Size: 32 x 22 x 13 (cm)
+				<br>
+				<center><a href="" target="_blank">Link bạn</a></center>
+			</div>
+		</div>
+	</div>
+	<!-- END GRID -->
+	</div>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+filterSelection("all")
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+</body>
+</html>
