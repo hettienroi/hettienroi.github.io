@@ -24,7 +24,7 @@ namespace postGenerator
                 "               <a href=\"";
             output += txtLinkStore.Text.ToString() + "\" target = \"_blank\" >\n" +
                 "                   <img src=\"pics/";
-            output += txtCode.Text.ToString() + ".jpg\" alt=\"" + txtCode.Text.ToString() + "\" style=\"width: 100 % \">\n" +
+            output += txtCode.Text.ToString() + ".jpg\" alt=\"" + txtCode.Text.ToString() + "\" style=\"width:100% \">\n" +
                 "               </a>\n" +
                 "               <b>Code: ";
             output += txtCode.Text.ToString() + "</b>\n" +
@@ -43,6 +43,17 @@ namespace postGenerator
                 "           </div>\n" +
                 "       </div>";
             System.Windows.Forms.Clipboard.SetText(output);
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txtCat.Clear();
+            txtCode.Clear();
+            txtLinkBan.Clear();
+            txtLinkStore.Clear();
+            txtPriceBan.Clear();
+            txtPriceStore.Clear();
+            txtSize.Clear();
         }
     }
 }
